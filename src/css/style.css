@@ -186,6 +186,7 @@ a:focus {
   height: 76px;
   display: table;
   text-align: left;
+  vertical-align: middle;
 }
 
 .logo-text {
@@ -195,7 +196,7 @@ a:focus {
   font-family: "Rationale", sans-serif;
   font-weight: 100;
   display: table-cell;
-  vertical-align: middle;
+  vertical-align:sub;
 }
 
 .menu {
@@ -282,6 +283,9 @@ a:focus {
 }
 
 .skill-mf {
+  display: flex;
+  flex-direction: column;
+  
   margin-top: -1em;
   margin-bottom: 3em;
 }
@@ -290,18 +294,18 @@ a:focus {
   color: #ffffff;
   font-size: 3.8rem;
 }
-
+/* 
 .skill-mf .progress {
   background-color: #cde1f8;
   margin: 0.5rem 0 1.2rem 0;
   border-radius: 0;
   height: 0.7rem;
-}
+} */
 
-.skill-mf .progress .progress-bar {
+/* .skill-mf .progress .progress-bar {
   height: 0.7rem;
   background-color: #3b4bf5;
-}
+} */
 
 /*=========================================
               experiences
@@ -592,6 +596,8 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+
 
 /*=========================================
               Responsive
