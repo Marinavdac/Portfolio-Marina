@@ -187,6 +187,7 @@ a:focus {
   display: table;
   text-align: left;
   vertical-align: middle;
+  padding-top: 4rem;
 }
 
 .logo-text {
@@ -284,9 +285,12 @@ a:focus {
 
 .skill-mf {
   display: flex;
-  flex-direction: column;
-  
-  margin-top: -1em;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 2px;
+  text-align: justify;
+  margin-top: 8em;
   margin-bottom: 3em;
 }
 
