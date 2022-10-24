@@ -1,7 +1,7 @@
 const TypingText = document.querySelector(".typed-text");
 const AutoTyping = document.querySelector(".TypeCursor");
 
-const textArray = ["Front-End Developer"];
+const textArray = ["FullStack Web Developer"];
 const typingDelay = 100;
 const erasingDelay = 80;
 const newTextDelay = 1000;
